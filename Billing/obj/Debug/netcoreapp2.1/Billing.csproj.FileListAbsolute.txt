@@ -1,0 +1,13 @@
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.csproj.CoreCompileInputs.cache
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.AssemblyInfoInputs.cache
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.AssemblyInfo.cs
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\bin\Debug\netcoreapp2.1\Billing.deps.json
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\bin\Debug\netcoreapp2.1\Billing.runtimeconfig.json
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\bin\Debug\netcoreapp2.1\Billing.runtimeconfig.dev.json
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\bin\Debug\netcoreapp2.1\Billing.dll
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.RazorAssemblyInfo.cache
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.RazorAssemblyInfo.cs
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.RazorTargetAssemblyInfo.cache
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\bin\Debug\netcoreapp2.1\Billing.pdb
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.dll
+D:\Kubernetes\Practice\EcommProduct\Backend-Services\Billing\Billing\Billing\obj\Debug\netcoreapp2.1\Billing.pdb
