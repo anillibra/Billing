@@ -16,7 +16,7 @@ namespace Billing.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "Billing-No-101", "Billing-No-102" };
+            return new string[] { "Billing-No-101", "Billing-No-104" };
         }
     }
 }
