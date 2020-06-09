@@ -11,7 +11,6 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
-
 stages:
 - stage: Build
   jobs:
@@ -22,4 +21,8 @@ stages:
     steps:
     - script: dotnet build --configuration $(buildConfiguration)
       displayName: 'dotnet build $(buildConfiguration)'
-
+- stage: Testing
+  jobs:
+    - job: Testing
+      steps:
+        - bash: echo Testing is in progress...
