@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'mydockerConn'
-        repository: 'devops/BillingfromDevops'
+        repository: 'anillibra/BillingfromDevops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
