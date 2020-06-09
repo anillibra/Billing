@@ -18,25 +18,26 @@ stages:
   - job: GitCheckout
     steps:
       - bash: echo Git repo is checking out...
-  - job: BuildBillingservice
-    steps:
-    - script: dotnet build --configuration $(buildConfiguration)
-      displayName: 'dotnet build $(buildConfiguration)'
+  # - job: BuildBillingservice
+  #   steps:
+  #   - script: dotnet build --configuration $(buildConfiguration)
+  #     displayName: 'dotnet build $(buildConfiguration)'
 - stage: Testing
   jobs:
     - job: Testing
       steps:
         - bash: echo Testing is in progress...
         - bash: echo Sonar user name $(SonarUsername) for dummy user for $(var1)*******
+        - bash: echo Build No: $(BuildNumber)
 - stage: DevDeployment
   dependsOn: Testing
   jobs:
     - job: DevDeployment
       steps:
         - bash: echo Dev Deployment is in progress...
-- stage: StagingDeployment
-  dependsOn: Testing
-  jobs:
-    - job: StagingDeployment
-      steps:
-        - bash: echo StagingDeployment is in progress...
+# - stage: StagingDeployment
+#   dependsOn: Testing
+#   jobs:
+#     - job: StagingDeployment
+#       steps:
+#         - bash: echo StagingDeployment is in progress...
