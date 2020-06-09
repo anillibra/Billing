@@ -12,6 +12,14 @@ pool:
 variables:
   buildConfiguration: 'Release'
 
-steps:
-- script: dotnet build --configuration $(buildConfiguration)
-  displayName: 'dotnet build $(buildConfiguration)'
+stages:
+- stage: Build
+  jobs:
+  - job: GitCheckout
+    steps:
+      - bash: echo Git repo is checking out...
+  - job: BuildBillingservice
+    steps:
+    - script: dotnet build --configuration $(buildConfiguration)
+      displayName: 'dotnet build $(buildConfiguration)'
+
