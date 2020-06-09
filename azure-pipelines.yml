@@ -27,7 +27,7 @@ stages:
     - job: Testing
       steps:
         - bash: echo Testing is in progress...
-        - bash: Sonar user name $(SonarUsername) for dummy user for $(var1)*******
+        - bash: echo Sonar user name $(SonarUsername) for dummy user for $(var1)*******
 - stage: DevDeployment
   dependsOn: Testing
   jobs:
