@@ -26,3 +26,15 @@ stages:
     - job: Testing
       steps:
         - bash: echo Testing is in progress...
+- stage: DevDeployment
+  dependsOn: Testing
+  jobs:
+    - job: DevDeployment
+      steps:
+        - bash: echo Dev Deployment is in progress...
+- stage: StagingDeployment
+  dependsOn: Testing
+  jobs:
+    - job: StagingDeployment
+      steps:
+        - bash: echo StagingDeployment is in progress...
