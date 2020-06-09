@@ -11,6 +11,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  var1: 'var1'
 stages:
 - stage: Build
   jobs:
@@ -26,6 +27,7 @@ stages:
     - job: Testing
       steps:
         - bash: echo Testing is in progress...
+        - bash: Sonar user name $(SonarUsername) for dummy user for $(var1)*******
 - stage: DevDeployment
   dependsOn: Testing
   jobs:
