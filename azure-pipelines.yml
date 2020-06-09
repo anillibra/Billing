@@ -28,7 +28,7 @@ stages:
       steps:
         - bash: echo Testing is in progress...
         - bash: echo Sonar user name $(SonarUsername) for dummy user for $(var1)*******
-        - bash: echo Build No- $(BuildNumber)
+        - bash: echo Build No- $(Build.BuildNumber)
 - stage: DevDeployment
   dependsOn: Testing
   jobs:
